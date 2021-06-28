@@ -1,0 +1,12 @@
+{
+  "include": [
+    "sources/**/*"
+  ],
+  "exclude": [
+    "**/node_modules/**/*"
+  ],
+  "extension": [
+    ".mjs"
+  ],
+  "all": true
+}
