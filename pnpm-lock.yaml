@@ -92,13 +92,7 @@ importers:
       nanoid: 3.1.23
       node-fetch: 2.6.1
 
-  sources/libs/Server:
-    specifiers:
-      express: ^4.17.1
-    dependencies:
-      express: 4.17.1
-
-  sources/servers/stream writing server:
+  sources/servers/StreamWriterServer:
     specifiers:
       '@coinhaven/libredisadapter': workspace:^0.0.0
       express: ^4.17.1
