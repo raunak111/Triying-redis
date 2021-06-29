@@ -59,6 +59,7 @@ importers:
 
   sources/libs/LibStreamWriter:
     specifiers:
+      '@coinhaven/libredisadapter': workspace:^0.0.0
       c8: ^7.4.0
       chai: ^4.2.0
       codecov: ^3.8.1
@@ -74,6 +75,7 @@ importers:
       node-fetch: ^2.6.1
       redis-fast-driver: ^2.1.5
     dependencies:
+      '@coinhaven/libredisadapter': link:../LibRedisAdapter
       redis-fast-driver: 2.1.5
     devDependencies:
       c8: 7.7.3
@@ -94,6 +96,14 @@ importers:
     specifiers:
       express: ^4.17.1
     dependencies:
+      express: 4.17.1
+
+  sources/servers/stream writing server:
+    specifiers:
+      '@coinhaven/libredisadapter': workspace:^0.0.0
+      express: ^4.17.1
+    dependencies:
+      '@coinhaven/libredisadapter': link:../../libs/LibRedisAdapter
       express: 4.17.1
 
 packages:

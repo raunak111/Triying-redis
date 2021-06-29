@@ -1,10 +1,10 @@
-//import { LibRedisAdapter } from './LibRedisAdapter/LibRedisAdapter.mjs';
-
-//const Ada = require('./LibRedisAdapter/LibRedisAdapter.mjs').default;
+//import { LibRedisAdapter, } from '@coinhaven/LibRedisAdapter/LibRedisAdapter.mjs';
+const adapter = require ("@coinhaven/libredisadapter");
 
 //const ada = new LibRedisAdapter();
-
 //const inst = adapter.newInstance(6379, whale);
+
+var myAdapter = ada.newInstance();
 
 const express = require("express");
 
