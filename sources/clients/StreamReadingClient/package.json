@@ -12,6 +12,7 @@
     "node": "16.2.0"
   },
   "dependencies": {
-    "@coinhaven/libredisadapter": "workspace:^0.0.0"
+    "@coinhaven/libredisadapter": "workspace:^0.0.0",
+    "@coinhaven/libstreamwriter": "workspace:^0.0.0"
   }
 }
