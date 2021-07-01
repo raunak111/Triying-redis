@@ -22,6 +22,7 @@
   "author": "Raunak Agarwal <raunak.agarwal341999@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@coinhaven/libredisadapter": "workspace:^0.0.0",
     "redis-fast-driver": "^2.1.5"
   },
   "devDependencies": {

@@ -1,0 +1,18 @@
+{
+  "name": "streamreadingclient",
+  "version": "1.0.0",
+  "description": "Client to read streams",
+  "main": "client.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raunak Agarwal",
+  "license": "ISC",
+  "volta": {
+    "node": "16.2.0"
+  },
+  "dependencies": {
+    "@coinhaven/libredisadapter": "workspace:^0.0.0",
+    "@coinhaven/libstreamwriter": "workspace:^0.0.0"
+  }
+}
